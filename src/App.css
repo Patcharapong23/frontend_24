@@ -1,0 +1,320 @@
+html, body{
+  margin: 0;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+  width: 100%;
+  background-image:url('/public/wallpaperflare.com_wallpaper.jpg');
+  color: #ffffff;
+  background-position: center;
+  background-size: cover;
+  font-family:"Lucida Console", "Courier New", monospace;
+}
+
+
+
+.App {
+  text-align: center;
+}
+
+.App-logo {
+  height: 5vmin;
+  pointer-events: none;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+.App-header {
+  background-color: #2deee4;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+@keyframes slideInBottom{
+  0% {
+    transform: translateY(10%);
+    opacity: 0;
+  }
+  100%{
+    transform: translateY(0);
+    }
+}
+.slide-In-Bottom{
+  animation-duration:1s;
+  animation-timing-function: ease-in-out;
+  animation-delay: 0;
+  animation-iteration-count: 3;
+  animation-name: slideInBottom;
+}
+
+.footer {
+  padding:15px;
+  position: fixed;
+  width: 100%;
+  bottom: 0;
+  font-size: 14px;
+  color: #000000;
+  background-color: #eee;
+}
+
+@keyframes slideInLeft {
+  0% {
+    transform: translateX(-10%);
+  }
+  100% {
+    transform: translateX(0);
+  }
+}
+@keyframes slideInRight {
+  100% {
+    transform: translateX(0%);
+  }
+  0% {
+    transform: translateX(10%);
+  }
+}
+
+@keyframes slideInTop {
+  0% {
+    transform: translateY(-10%);
+    opacity: 0;
+  }
+  100% {
+    transform: translateY(0);
+  }
+}
+
+@keyframes slideInBottom {
+  0% {
+    transform: translateY(10%);
+    opacity: 0;
+  }
+  100% {
+    transform: translateY(0);
+  }
+}
+
+@keyframes slideInBottomTechnology {
+  0% {
+    transform: translateY(10%);
+  }
+  100% {
+    transform: translateY(0);
+  }
+}
+
+.slide-in-left {
+  animation-duration: 1s;
+  animation-timing-function: ease-in-out;
+  animation-delay: 0s;
+  animation-iteration-count: 1;
+  animation-name: slideInLeft;
+}
+.slide-in-right {
+  animation-duration: 1s;
+  animation-timing-function: ease-in-out;
+  animation-delay: 0s;
+  animation-iteration-count: 1;
+  animation-name: slideInRight;
+}
+.slide-in-top {
+  animation-duration: 1s;
+  animation-timing-function: ease-in-out;
+  animation-delay: 0s;
+  animation-iteration-count: 1;
+  animation-name: slideInTop;
+}
+.slide-in-bottom {
+  animation-duration: 1s;
+  animation-timing-function: ease-in-out;
+  animation-delay: 0s;
+  animation-iteration-count: 1;
+  animation-name: slideInBottom;
+}
+
+.animate-charcter2
+{
+  font-size: 40px;
+  margin-left: 0;
+  margin-top: 0;
+  background-image: linear-gradient(-225deg,#2a36b1,#3b50ce ,#455ede,#4e6cef,#738ffe,#91a7ff,#afbfff ,#d0d9ff,#e7e9fd,#d0d9ff,#afbfff,#91a7ff,#738ffe,#4e6cef);
+  background-size: auto auto;
+  background-clip: border-box;
+  background-size: 200% auto;
+  color: #fff;
+  background-clip: text;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  animation: textclip 5s linear infinite;
+} 
+
+@keyframes textclip {
+  to {
+    background-position: 200% center;
+  }
+}
+
+/* animate-charcter-2{
+  font-size: 50px;
+  background-image: linear-gradient(-225deg,#B532E7,#0931F9 , #09BFF4,#06D146,#F3FF01,#FF8000,#FF0000 ,#FF0000,#FF8000,#F3FF01,#06D146,#09BFF4,#0931F9,#B532E7);
+  background-size: auto auto;
+  background-clip: border-box;
+  background-size: 200% auto;
+  color: #fff;
+  background-clip: text;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  animation: textclip 15s linear infinite;
+} */
+
+/* .animate-charcter-1{
+  background-image: linear-gradient(-225deg,#FB6DE6, #FFF,#09BFF4 , #FFF,#06D146, #FFF);
+  background-size: auto auto;
+  background-clip: border-box;
+  background-size: 200% auto;
+  color: #fff;
+  background-clip: text;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  animation: textclip 10s linear infinite;
+} */
+@keyframes textclip {
+  to {
+    background-position: 200% center;
+  }
+}
+
+
+.img1{
+  width: 45%;
+  height: 90%;
+  position: absolute;
+  bottom: 0;
+  right: 100px;
+
+}
+.img1 img{
+    height: 100%;
+    position: absolute;
+    left: 50%;
+    bottom: 0;
+    transform: translateX(-50%);
+    transition: bottom 1s , left 1s;
+}
+.ms-auto{
+    color: #ffffff;
+}
+.H1D{
+  margin-left: 8%;
+  margin-top: 15%;
+}
+
+.img1:hover.shape{
+  bottom: 40px;
+}
+.img1:hover.myi{
+  left: 45%;
+
+}
+.img2{
+  margin-left: 8%;
+  margin-top: 15%;
+}
+.img2 img{
+  height: 50%;
+  position: absolute;
+  right: 100px;
+  border-radius: 50%;
+
+}
+.PO.thead.tr{
+  color: #ffffff;
+}
+.H1D.h1{
+  font-size: 100px;
+}
+
+@keyframes slideInTop {
+  0% {
+    transform: translateY(-10%);
+    opacity: 0;
+  }
+  100% {
+    transform: translateY(0);
+  }
+}
+
+.slide-in-top {
+  animation-duration: 1s;
+  animation-timing-function: ease-in-out;
+  animation-delay: 0s;
+  animation-iteration-count: 1;
+  animation-name: slideInTop;
+}
+
+.animate-charcter
+{ font-size: 40px;
+  background-image: linear-gradient(-225deg,#ffffff,#E94560,#E94560,#ffffff);
+  background-size: auto auto;
+  background-clip: border-box;
+  background-size: 200% auto;
+  color: #fff;
+  background-clip: text;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  animation: textclip 2s linear infinite;
+}
+
+@keyframes textclip {
+  to {
+    background-position: 200% center;
+  }
+}
+
+.facebook{
+  height: 40px;
+  width:  40px;
+}
+.line{
+  height: 40px;
+  width:  40px;
+}
+.gmail{
+  height: 40px;
+  width:  40px;
+}
+.instagram{
+  height: 40px;
+  width:  40px;
+}
+.Mio{
+
+  align-items: right;
+}
+.welcome{
+  color: rgb(249, 203, 0);
+  font-weight: bold;
+  font-size: 45px;
+}
