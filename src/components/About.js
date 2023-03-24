@@ -30,7 +30,7 @@ export default class About extends Component {
                <a href='https://www.facebook.com/profile.php?id=100011546595484' tabIndex={1}><img src='./images/facebook.png' className='facebook'  alt='...' /> {''}  </a>
                <a href='https://line.me/ti/p/6Yph0HY_iw'><img src='./images/line.png' className='line'  alt='...'/> {''}</a>    
                <a href='https://instagram.com/nai_luck?igshid=ZDdkNTZiNTM='><img src='./images/instagram.png' className='instagram'  alt='...'/> {''} </a>   
-               <img src='./images/gmail.png' className='gmail'  alt='...'/> {''}
+               <a href mailto='mailto:patcharapong.namc@northbkk.ac.th'><img src='./images/gmail.png' className='gmail'  alt='...'/> {''}</a>
             </div>
             {/* <h3 md={5} style={{paddingBottom:20}}>
               <img src='./images/Mio.jpg' className='Mio' alt='...'/>
